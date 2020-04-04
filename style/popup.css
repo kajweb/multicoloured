@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	height: 80px;
+	width: 100px;
+}
+
+h3,div{
+	text-align: center;
+}
+
+button{
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+
+#status{
+	color: red;
+}
