@@ -1,7 +1,7 @@
 * {
-	-webkit-filter: grayscale(0%) !important;
-    -moz-filter: grayscale(0%) !important;
-    -ms-filter: grayscale(0%) !important;
-    -o-filter: grayscale(0%) !important;
-    filter: grayscale(0%) !important;
+	-webkit-filter: none !important;
+    -moz-filter: none !important;
+    -ms-filter: none !important;
+    -o-filter: none !important;
+    filter: none !important;
 }

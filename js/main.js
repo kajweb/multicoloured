@@ -1,4 +1,5 @@
 function loadCSS(filename){
+	console.log("exec load css")
 	var link = document.createElement("link");
 	link.href = chrome.extension.getURL(filename);
 	link.type = "text/css";
@@ -8,7 +9,6 @@ function loadCSS(filename){
 
 
 chrome.storage.sync.get(['switch'], (res) => {
-	console.log(res)
 	switch( res.switch ){
 		case false:
 		break;
