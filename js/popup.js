@@ -11,10 +11,14 @@ function getStatus(){
 		console.log(res)
 		switch( res.switch ){
 			case false:
+				open.style.background = "";
+				close.style.background = "red";
 				status.innerHTML ="关"
 			break;
 			case true:
 			default:
+				open.style.background = "#32f732";
+				close.style.background = "";
 				status.innerHTML ="开"
 			break;
 		}
